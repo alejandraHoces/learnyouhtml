@@ -7,6 +7,7 @@
     <style>
     li {
       list-style: none;
+
     }
     a {
       text-decoration: none;
@@ -15,7 +16,7 @@
     div {
       background-color:  #4db8ff;
       color: white;
-      padding:5px 20px;
+      padding:5px 30px;
       width: 800px;
       border: 50px solid #2c323a;
     }
@@ -33,6 +34,12 @@
     .grey {
       border: 1px solid grey;
     }
+
+    li ::after {
+      content: "[COMPLETED]";
+      /*font-weight: 400;*/
+      float: right;
+    }
     </style>
 
   <body>
@@ -43,7 +50,7 @@
       <hr class="black">
       <hr class="grey">
       <ul>
-        <li><a href="my-exercises/hello_world.html">HELLO WORLD [COMPLETED]</a></li>
+        <li><a href="my-exercises/hello_world.html">HELLO WORLD</a></li>
         <li><a href="my-exercises/tags.html">TAGS</a></li>
         <li><a href="my-exercises/attributes.html">ATTRIBUTES</a></li>
         <li><a href="my-exercises/inline_tags.html">INLINE TAGS</a></li>
